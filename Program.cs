@@ -6,7 +6,9 @@ var builder = WebApplication.CreateBuilder(args);
 // 1. Register DbContext with SQL Server provider
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
+//test
+//test1
+//test2
 // 2. Register AutoMapper
 builder.Services.AddAutoMapper(cfg => { }, typeof(Program));
 
