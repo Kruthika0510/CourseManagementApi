@@ -18,3 +18,4 @@
   </ItemGroup>
 
 </Project>
+//project file for CourseManagementApi, which is a .NET 10.0 web application project. It includes references to essential packages such as AutoMapper for object mapping, Microsoft.AspNetCore.OpenApi for OpenAPI support, Microsoft.EntityFrameworkCore.SqlServer for SQL Server database access, and Swashbuckle.AspNetCore for Swagger documentation generation. The project is configured to enable nullable reference types and implicit using directives.
