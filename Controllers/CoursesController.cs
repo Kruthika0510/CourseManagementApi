@@ -58,3 +58,4 @@ public class CoursesController : ControllerBase
     }
 }
 //edited controller to include bulk update and delete operations using EF Core 7+ features.
+//comments added to explain the purpose of each method and the use of ExecuteUpdateAsync and ExecuteDeleteAsync for efficient database operations.
