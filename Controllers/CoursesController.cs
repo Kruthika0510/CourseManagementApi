@@ -57,3 +57,4 @@ public class CoursesController : ControllerBase
         return Ok(new { Message = $"Deleted {rowsDeleted} unused courses." });
     }
 }
+//edited controller to include bulk update and delete operations using EF Core 7+ features.
